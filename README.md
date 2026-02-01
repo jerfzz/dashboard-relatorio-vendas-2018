@@ -157,6 +157,7 @@ Agradecimento especial a professores, colegas e profissionais que contribuíram 
 
 * 🔗 *[LinkedIn](https://www.linkedin.com/in/jerfss/)*
 * 💻 *[GitHub / Portfólio](https://github.com/jerfzz?tab=repositories)*
+* 🟥 *[Streamlit](https://share.streamlit.io/user/jerfzz)*
 
 ---
 
