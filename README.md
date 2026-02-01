@@ -129,7 +129,7 @@ http://localhost:8501
 ## 📁 Estrutura do Projeto
 
 * `app.py` — Código principal da aplicação Streamlit
-* `dados-imersao-final.csv` — Dataset processado utilizado nas visualizações
+* `vendas2018.csv` — Dataset processado utilizado nas visualizações
 * `README.md ` — Documentação do projeto
 
 ---
