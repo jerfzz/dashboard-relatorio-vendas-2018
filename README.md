@@ -5,14 +5,14 @@ Sistema interativo de **Business Intelligence** desenvolvido em **Streamlit**, v
 
 ---
 
-## 🚀 Visão Geral
+## 💼 Contexto de Negócio e Objetivos
 
-Este projeto centraliza dados de vendas em um painel visual moderno, permitindo análises dinâmicas por **mês**, **cidade**, **produto** e **vendedor**.
+Este projeto foi desenvolvido para solucionar a fragmentação de dados em registros transacionais brutos, um desafio recorrente em departamentos de **Controladoria e Gestão Financeira**. Através da automação em Python, o objetivo é transformar relatórios estáticos em uma ferramenta estratégica de **Business Intelligence** para:
 
-**Objetivos principais:**
-- Monitorar indicadores estratégicos de vendas  
-- Facilitar a tomada de decisão baseada em dados  
-- Demonstrar competências em Business Intelligence com Python  
+- **Monitoramento de KPIs Estratégicos:** Centralização e visualização moderna do faturamento por mês, cidade, produto e vendedor.
+- **Identificação de Gargalos de Receita:** Monitoramento mensal para detecção de sazonalidades ou quedas abruptas de performance, permitindo ajustes rápidos.
+- **Inteligência Regional:** Avaliação de desempenho por localidade para direcionamento de estratégias em regiões com baixo volume de vendas.
+- **Otimização e Agilidade:** Substituição de extrações manuais e planilhas estáticas por uma interface dinâmica, reduzindo o tempo de resposta da gestão e automatizando a entrega de dados.
 
 ---
 
