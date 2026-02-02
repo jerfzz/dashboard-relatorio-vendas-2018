@@ -138,10 +138,10 @@ http://localhost:8501
 
 Seguem algumas evidências do projeto:
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/89975192-3ebb-45d6-bbc1-e081f684412c" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/ee45240c-4380-4483-a470-c3c0fdd091a7" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/36029870-37b5-42c4-89f6-2496230ce421" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/abda5625-567c-4a92-b938-1687ce4494c1" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/86ad11bb-1070-4ff3-97f8-5a707818df71" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/76b8f418-ea7a-4a23-9b99-bf3555bec984" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/12bb6528-62c4-48d5-8dd9-15a321b8a471" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4a2a33de-1b06-4a87-888e-e0602ed08a7d" />
 
 ---
 
