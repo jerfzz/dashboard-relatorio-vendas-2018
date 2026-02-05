@@ -156,7 +156,7 @@ elif st.session_state.pagina_ativa == "KPIs":
                                 markers=True)
 
         # Ajustando os rótulos de dados
-        grafico_linha.update_traces(textposition='top center', texttemplate='R$ %{text:.2s}')        
+        grafico_linha.update_traces(textposition='top center', texttemplate='%{text:,}')        
         # Opcional: Ocultar o eixo Y também para um visual mais "clean", já que tem rótulos
         grafico_linha.update_yaxes(showticklabels=False, title=None, showgrid=False)
         grafico_linha.update_xaxes(title=None)
@@ -186,10 +186,15 @@ elif st.session_state.pagina_ativa == "Mapas":
             st.plotly_chart(grafico_paises, use_container_width=True)
 
     with col_nota:
+        # 1. Criar um dataframe específico para São Paulo
+        df_sp = df_filtrado[df_filtrado["Cidade"] == "São Paulo"]
+        # 2. Calcular os valores
+        total_vendas_sp = df_sp['Total'].sum()
+        qtd_vendas_sp = df_sp['Quantidade Vendida'].sum()
         st.subheader("Entenda")
         st.info("🌆 **São Paulo** obteve o maior volume de vendas.")
-        st.metric("Total de Vendas", f"R$ {df_filtrado['Total'].sum():,}")
-        st.metric("Quantidade de Vendas", f"{df_filtrado['Quantidade Vendida'].sum():,}")
+        st.metric("Total de Vendas em São Paulo", f"R$ {df_sp['Total'].sum():,}")
+        st.metric("Quantidade de Vendas em São Paulo", f"{df_sp['Quantidade Vendida'].sum():,}")
 
 elif st.session_state.pagina_ativa == "Produtos":
     st.subheader("📦 Produtos")
@@ -360,4 +365,5 @@ elif st.session_state.pagina_ativa == "Agradecimento":
     st.divider()
     st.markdown("<p style='text-align: center;'>Agradeço a todos os professores, amigos, colegas de profissão e colegas de turma que confiaram em minha capadidade! Seguirei aprendendo e evoluindo para entregar resultados duradouros por onde puder!</p>", unsafe_allow_html=True)
     st.balloons()
+
     st.success("Obrigado por utilizar o sistema Jerf S/A!")
